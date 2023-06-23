@@ -1,0 +1,30 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Source+Code+Pro:wght@200;300;400&display=swap');
+/* component */
+@import "./header.css";
+@import "./buttons.css";
+
+/* Reset Css */
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Source Code Pro', monospace;
+  vertical-align: baseline;
+  text-decoration: none;
+}
+
+.container {
+  width: 1024;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+}
